@@ -13,19 +13,14 @@ import java.util.List;
 
 public class IOoperations {
 
-    public void writeCSV(ResultSet resultSet) throws IOException, SQLException {
-        CSVPrinter printer = new CSVPrinter(new FileWriter("games.csv"), CSVFormat.EXCEL);
-        ResultSet rs= resultSet;
-        printer.printRecords(rs);
-        printer.println();
-        printer.printRecord(2, "mary", "Mary", "Meyer");
-        printer.close();
+    public void writeCSV(ResultSet resultSet, String filename) throws IOException, SQLException {
+        CSVPrinter printer = new CSVPrinter(new FileWriter(filename), CSVFormat.EXCEL.withDelimiter(';'));
+        printer.printRecords(resultSet);
     }
 
     public void writeSTDOUT(ResultSet resultSet) throws IOException, SQLException {
         CSVPrinter printer = new CSVPrinter(System.out, CSVFormat.EXCEL);
         printer.printRecords(resultSet);
-
     }
 
     public List<CSVRecord> readCSV(File file) throws IOException {
@@ -62,7 +57,7 @@ public class IOoperations {
             initListOfGames = io.readCSV(initCSV);
             initListOfGames.forEach(item -> {
                 String[] gameData = item.get(0).split(";");
-                System.out.printf(gameData[0] + " " +gameData[5] + "\n");
+//                System.out.printf(gameData[0] + " " +gameData[5] + "\n");
                 if (!"\uFEFF\uFEFFID".equals(gameData[0])) {
                     initGames.add(
                             new Game(

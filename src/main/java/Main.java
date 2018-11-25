@@ -1,44 +1,47 @@
-import org.apache.commons.csv.CSVRecord;
-
-import java.io.File;
 import java.io.IOException;
-import java.util.List;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Main {
+
     public static void main(String[] args) {
-
+        GamesRepository initGames = new GamesRepository(); //For DB Initiation from CSV
+        Connection connection = null;
         IOoperations io = new IOoperations();
-        GamesRepository initGames = new GamesRepository();
+        SQLoperations sql = new SQLoperations();
 
-        //***********************************//
-        //            DB INIT                 //
-        //***********************************//
+        io.readCSVwriteToRepo(initGames, io, "init.csv");
 
-        File initCSV = new File("init.csv");
-        List<CSVRecord> initListOfGames;
+        io.printRepositoryOfGames(initGames);
+
         try {
-            initListOfGames = io.readCSV(initCSV);
-            initListOfGames.forEach(item -> {
-                if ("\uFEFFID".compareTo(item.get(0).split(";")[0]) != 0) {
-                    initGames.add(
-                            new Game(
-                                    Integer.parseInt(item.get(0).split(";")[0]), //ID
-                                    Integer.parseInt(item.get(0).split(";")[1]), //year
-                                    Integer.parseInt(item.get(0).split(";")[5]), //rate
-                                    String.valueOf(item.get(0).split(";")[2]), //title
-                                    String.valueOf(item.get(0).split(";")[3]), //developer
-                                    String.valueOf(item.get(0).split(";")[4])  //publisher
-                            )
-                    );
-                }
-            });
-            io.printRepositoryOfGames(initGames);
-        } catch (IOException e) {
+            connection = sql.initDB();
+
+            Statement statement = connection.createStatement();
+            String query = "select * from games";
+            ResultSet resultSet = statement.executeQuery(query);
+            io.writeCSV(resultSet);
+
+            sql.writeRepoToSQL(initGames, connection);
+
+//            System.out.println(sql.singleInsertStatement(initGames.getGames().get(3)));
+
+        } catch (SQLException e) {
             e.printStackTrace();
-        } catch (NullPointerException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
 
+        // END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        try {
+            connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
+
 }
+

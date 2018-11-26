@@ -15,10 +15,10 @@ public class SQLoperations {
                 "  `rate` INT NOT NULL,\n" +
                 "  PRIMARY KEY (`ID`),\n" +
                 "  UNIQUE INDEX `ID_UNIQUE` (`ID` ASC) VISIBLE);\n";
-        String url = "jdbc:mysql://192.168.56.128:3306/?characterEncoding=utf8";
-        String ur2 = "jdbc:mysql://192.168.56.128:3306/zad22?characterEncoding=utf8";
+        String url = "jdbc:mysql://192.168.56.101:3306/?characterEncoding=utf8&serverTimezone=UTC";
+        String ur2 = "jdbc:mysql://192.168.56.101:3306/zad22?characterEncoding=utf8&serverTimezone=UTC";
         String username = "root";
-        String password = "toor";
+        String password = "orion12";
         Connection connection = DriverManager.getConnection(url, username, password);
         Statement statement = connection.createStatement();
         statement.execute("CREATE SCHEMA IF NOT EXISTS zad22");

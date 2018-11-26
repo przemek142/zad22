@@ -17,14 +17,15 @@ public class Main {
             connection = sql.initDB();
             sql.writeRepoToSQL(initGames, connection);
         } catch (SQLException e) {
+            e.printStackTrace();
         }
 
         try {
             GamesRepository currentGameRepo = new GamesRepository();
             Menu menu = new Menu();
             String queryMenu = menu.menu();
-            Statement statement = connection.createStatement();
-            ResultSet resultSet2 = statement.executeQuery(queryMenu);
+            Statement statement2 = connection.createStatement();
+            ResultSet resultSet2 = statement2.executeQuery(queryMenu);
             io.writeCSV(resultSet2, "currentGames.csv");
             io.readCSVwriteToRepo(currentGameRepo, io, "currentGames.csv");
             io.printRepositoryOfGames(currentGameRepo);

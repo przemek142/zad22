@@ -1,218 +1,128 @@
-﻿﻿ID;rok;tytuł;producent;wydawca;ocena
-1;1998;Unreal;Epic Games;GT Interactive;3
-2;1999;Unreal Mission Pack Return to Na Pali;Legend Entertainment;GT Interactive;4
-3;1999;Unreal Tournament;Epic Games;Epic Games;2
-4;1999;Dr. Brains Thinking Games Action/Reaction;Knowledge Adventure;Knowledge Adventure;5
-5;1999;Nerf Arena Blast;Visionary Media Inc.;Hasbro Interactive;2
-6;1999;The Wheel of Time;Legend Entertainment;GT Interactive;1
-7;2000;Rune;Human Head Studios;Play-It;1
-8;2000;Star Trek Deep Space Nine The Fallen;The Collective Inc.[2];Lemon Interactive;4
-9;2000;X-COM Enforcer;MicroProse;MicroProse;1
-10;2000;Deus Ex;Ion Storm;Eidos Interactive;4
-11;2001;Harry Potter i Kamień Filozoficzny;KnowWonder Digital Mediaworks;Electronic Arts;3
-12;2001;Adventure Pinball Forgotten Island;Digital Extremes;Electronic Arts;5
-13;2001;Clive Barkers Undying;Dreamworks Interactive;Electronic Arts;1
-14;2001;Rune Halls of Valhalla;Human Head Studios;Gathering of Developers;2
-15;2001;Rune Viking Warlord;Human Head Studios;Gathering of Developers;5
-16;2002;Deus Ex The Conspiracy;Ion Storm[4];Eidos Interactive;4
-17;2002;New Legends;Infinite Machine[5];THQ;2
-18;2002;Harry Potter i Komnata Tajemnic;KnowWonder Digital Mediaworks;Electronic Arts;1
-19;2002;Mobile Forces;Rage Software;Majesco;1
-20;2002;Tactical Ops Assault on Terror;Kamehan Studios;cdp.pl;5
-21;2002;Americas Army;United States Army;United States Army;1
-22;2002;Lineage II;NCsoft;cdp.pl;1
-23;2002;Tom Clancys Splinter Cell;Ubisoft;Play-It;1
-24;2002;Unreal Championship;Digital Extremes;Midway Games;4
-25;2002;Unreal Tournament 2003;Digital Extremes;Infogamers;3
-26;2003;Mój brat niedźwiedź;KnowWonder Digital Mediaworks;USA Disney Interactive;3
-27;2003;Tom Clancys Rainbow Six 3 Raven Shield;Ubisoft;Play-It;1
-28;2003;Desert Thunder;Brainbox Games;Groove Games;4
-29;2003;Devastation;Digitalo Studios;Licomp Empirical Multimedia;2
-30;2003;Twin Caliber;Rage Software;Rage Software;5
-31;2003;Magic The Gathering – Battlegrounds;Secret Level;Atari;3
-32;2003;Postal 2;Running With Scissors Inc.;Licomp Empirical Multimedia;2
-33;2003;Unreal II The Awakening;Legend Entertainment;cdp.pl;4
-34;2003;XIII;Ubisoft;Ubisoft;5
-35;2004;Dead Mans Hand;Human Head Studios;Licomp Empirical Multimedia;2
-36;2004;Thief Deadly Shadows;Ion Storm;Cenega;3
-37;2004;Harry Potter i więzień Azkabanu[6];KnowWonder Digital Mediaworks;Electronic Arts;3
-38;2004;Lemony Snickets A Series of Unfortunate Events;Adrenium Games;Activision;3
-39;2004;Shadow Ops Red Mercury;Zombie Studios;Atari;1
-40;2004;Rybki z ferajny;Amaze Entertainment;Licomp Empirical Multimedia;5
-41;2004;Tom Clancys Rainbow Six 3 Athena Sword;Ubisoft;Cenega;4
-42;2004;Tom Clancys Rainbow Six 3 Black Arrow;Ubisoft;Ubisoft;2
-43;2004;Tom Clancys Splinter Cell Pandora Tomorrow;Ubisoft;Cenega;5
-44;2004;Marine Heavy Gunner Vietnam;Brainbox Games;Groove Games;3
-45;2004;Men of Valor;2015 Games;Sierra;3
-46;2004;Tribes Vengeance;Irrational Games;cdp.pl;3
-47;2004;Unreal Tournament 2004;Digital Extremes;Infogamers;1
-48;2005;Land of the Dead Road to Fiddlers Green;Brainbox Games;Groove Games;2
-49;2005;Americas Army Rise of a Soldier;Ubisoft;Ubisoft;2
-50;2005;Advent Rising;GlyphX Games;Majesco;2
-51;2005;Brothers in Arms Earned in Blood;Gearbox Software;Cenega;1
-52;2005;Brothers in Arms Road to Hill 30;Gearbox Software;Cenega;2
-53;2005;Combat Task Force 121;Direct Action Games[7];Groove Games;1
-54;2005;Pariah;Digital Extremes[8];Nicolas Games;3
-55;2005;Star Wars Republic Commando;LucasArts[9][10];LucasArts;1
-56;2005;SWAT 4;Irrational Games;cdp.pl;3
-57;2005;Tom Clancys Splinter Cell Chaos Theory;Ubisoft[11];Cenega;3
-58;2005;Unreal Championship 2 The Liandri Conflict;Epic Games;Midway Games;4
-59;2005;World War II Combat Road to Berlin;Direct Action Games;Groove Games;2
-60;2006;Brothers In Arms D-Day;Gearbox Software;Cenega;2
-61;2006;Red Orchestra Ostfront 41-45;Tripwire Interactive[12];Cenega;2
-62;2006;Red Steel;Ubisoft;Ubisoft;2
-63;2006;Sezon na misia;Ubisoft;Cenega;5
-64;2006;The Chronicles of Spellborn;Spellborn International;Mindscape;4
-65;2006;The Regiment;Kuju Entertainment;Konami;3
-66;2006;Tom Clancys Splinter Cell Double Agent;Ubisoft;Ubisoft;4
-67;2006;Tom Clancys Splinter Cell Essentials;Ubisoft;Ubisoft;1
-68;2006;World War II Combat Iwo Jima;Direct Action Games;Groove Games;2
-69;2006;WarPath;Digital Extremes;Groove Games;5
-70;2006;Gears of War;Epic Games;Microsoft Game Studios;3
-71;2006;RoboBlitz;Naked Sky Entertainment[16];Naked Sky Entertainment;3
-72;2006;Tom Clancys Rainbow Six Vegas;Ubisoft Montreal;Ubisoft;3
-73;2007;BioShock[13];2K Boston/2K Australia;2K Games;1
-74;2007;Na fali;Ubisoft;Cenega;2
-75;2007;Marine Sharpshooter 3;Groove Games;Groove Games;3
-76;2007;Close Quarters Conflict;Direct Action Games;Groove Games;1
-77;2007;Ragnarok Online 2 The Gate of the World;Gravity;Gravity;2
-78;2007;Redneck Kentucky and the Next Generation Chickens;City Interactive;City Interactive;4
-79;2007;StoneAge 2;DigiPark Inc.;Frogster Interactive Pictures AG;4
-80;2007;Vanguard Saga of Heroes;Sigil Games Online;Sony Interactive Entertainment;2
-81;2007;Black College Football BCFX The Xperience;Nerjyzed Entertainment;Aspyr Media;2
-82;2007;Alliance of Valiant Arms;RED DUCK;Neowiz Games NHN;3
-83;2007;BlackSite Area 51;Midway Austin;Midway Games;5
-84;2007;Fatal Inertia;Koei;Koei;2
-85;2007;Lost Odyssey;Mistwalker;Microsoft Game Studios;1
-86;2007;Hour of Victory;NFusion Interactive;Midway Games;4
-87;2007;Fury;Auran[18];Gamecock Media Group;3
-88;2007;Mass Effect;BioWare[19];Microsoft Game Studios;3
-89;2007;Stranglehold;Midway Games;Midway Games;5
-90;2007;Medal of Honor Airborne;Electronic Arts[21];Electronic Arts;3
-91;2007;Monster Madness Battle for Suburbia;Artificial Studios[22];SouthPeak Interactive;2
-92;2007;Undertow;Chair Entertainment;Chair Entertainment;1
-93;2007;Unreal Tournament III;Epic Games;Midway Games;1
-94;2007;Warmonger Operation Downtown Destruction;NetDevil;NetDevil;1
-95;2008;Mission Against Terror;Kingsoft;Suba Games;1
-96;2008;Brothers In Arms Double Time;Gearbox Software;Ubisoft;3
-97;2008;Marine Sharpshooter 4;Groove Games;Groove Games;2
-98;2008;Priston Tale 2;Yedang Online;Yedang Online;3
-99;2008;American McGees Grimm;Spicy Horse;Turner Broadcasting System;2
-100;2008;Army of Two;Electronic Arts;Electronic Arts;5
-101;2008;Brothers in Arms Hells Highway;Gearbox Software;Ubisoft;3
-102;2008;Damnation;Blue Omega Entertainment;Codemasters;4
-103;2008;Destroy All Humans! Path of the Furon[23];THQ;THQ;3
-104;2008;Frontlines Fuel of War;Kaos Studios;THQ;2
-105;2008;Gears of War 2;Epic Games;Microsoft Game Studios;4
-106;2008;Hail to the Chimp;Wideload Games[24];Gamecock Media Group;2
-107;2008;Highlander The Game;Widescreen Games;Eidos Interactive;3
-108;2008;Mirrors Edge;Digital Illusions CE;Electronic Arts;4
-109;2008;Legendary;Spark Unlimited;Gamecock Media Group;5
-110;2008;Rise of the Argonauts;Liquid Entertainment;Codemasters;4
-111;2008;Mortal Kombat vs. DC Universe;Midway Amusement Games;Midway Games;1
-112;2008;Robert Ludlums The Bourne Conspiracy;High Moon Studios;Sierra Entertainment;2
-113;2008;TNA iMPACT!;Midway Studios – Los Angeles;Midway Games;4
-114;2008;Parabellum;Acony;GamersFirst;5
-115;2008;Supersonic Acrobatic Rocket-Powered Battle-Cars;Psyonix;Psyonix;3
-116;2008;The Last Remnant;Square Enix;Square Enix;2
-117;2008;Ageods To End All Wars;Kuju Entertainment;Matrix Games;2
-118;2008;Tom Clancys EndWar;Ubisoft Shanghai;Ubisoft;3
-119;2008;Tom Clancys Rainbow Six Vegas 2;Ubisoft Montreal;Ubisoft;5
-120;2008;Turning Point Fall of Liberty;Spark Unlimited;Codemasters;5
-121;2008;Turok;Propaganda Games;Touchstone Pictures;4
-122;2009;Killing Floor[14];Tripwire Interactive;Iceberg Interactive;2
-123;2009;50 Cent Blood on the Sand;Swordfish Studios;Vivendi Games;4
-124;2009;Americas Army 3.0;United States Army;United States Army;2
-125;2009;Star Trek D.A.C;Naked Sky Entertainment;Paramount Digital Entertainment;2
-126;2009;Borderlands;Gearbox Software;2K Games;2
-127;2009;Fairytale Fights;Playlogic Game Factory;Playlogic;3
-128;2009;Huxley;Webzen Games;Webzen Games NHN;2
-129;2009;Leisure Suit Larry Box Office Bust;Team 17;Codemasters;3
-130;2009;Section 8;Timegate Studios;Gamecock Media Group;5
-131;2009;Sky Gods;BlackFoot Studios;BlackFoot Studios;2
-132;2009;MagnaCarta 2;Softmax;Cenega;2
-133;2009;The Wheelman;Midway Games Newcastle;Midway Games;2
-134;2009;The Punisher No Mercy;Zen Studios;ZEN Studios;1
-135;2009;X-Men Origins Wolverine;Raven Software;Activision;4
-136;2009;Shadow Complex[25];Chair Entertainment;Microsoft Game Studios;4
-137;2009;Cellfactor Psychokinetic Wars;Timeline Interactive;Ubisoft;3
-138;2009;Crimecraft;Vogster Entertainment;THQ;2
-139;2010;APB All Points Bulletin;Realtime Worlds;Electronic Arts;4
-140;2010;BioShock 2[15];2K Marin;2K Games;1
-141;2010;Army of Two The 40th Day;Electronic Arts;Electronic Arts;4
-142;2010;Lucha Libre AAA Heroes del Ring;Immersion Games;Konami;1
-143;2010;Blacklight Tango Down;Zombie Studios;Fox Interactive;1
-144;2010;Dark Void;Airtight Games;Capcom;3
-145;2010;DC Universe Online;Sony Online Austin;Sony Online Entertainment;4
-146;2010;Mass Effect 2;BioWare;Electronic Arts;1
-147;2010;Global Agenda;Hi-Rez Studios;Hi-Rez Studios;5
-148;2010;Mortal Online;Star Vault;Star Vault;5
-149;2010;Red Orchestra Heroes of Stalingrad;Tripwire Interactive;Tripwire Interactive;2
-150;2010;Alpha Protocol;Obsidian Entertainment;Sega;2
-151;2010;Rushn Attack Ex-Patriot;Konami;Konami;1
-152;2010;Saw II Flesh & Blood;Zombie Studios;Konami;4
-153;2010;Medal of Honor (tryb single-player);Electronic Arts;Electronic Arts;3
-154;2010;Singularity;Raven Software;Activision;1
-155;2010;Stargate Resistance;Cheyenne Mountain Entertainment;FireSky;4
-156;2010;The Agency;Sony Online Entertainment Seattle;Sony Online Entertainment;1
-157;2010;Transformers Wojna o Cybertron;High Moon Studios;Activision;1
-158;2010;Tom Clancys Splinter Cell Conviction;Ubisoft Montreal;Ubisoft;1
-159;2010;The Scourge Project Episode 1 and 2;Tragnarion Studios;Bit Box S.L.;2
-160;2010;Zumba Fitness;Pipeworks Software;Majesco Entertainment;2
-161;2010;Enslaved Odyssey to the West;Ninja Theory;Namco Bandai Games;5
-162;2011;Alice Madness Returns;Spicy Horse;Electronic Arts;1
-163;2011;Batman Arkham City;Rocksteady Studios;Eidos Interactive;3
-164;2011;Mortal Kombat;NetherRealm Studios;Warner Bros. Interactive Entertainment;4
-165;2011;Gears of War 3;Epic Games;Microsoft Game Studios;4
-166;2011;Bulletstorm;People Can Fly;Electronic Arts;4
-167;2011;Hunted The Demons Forge;InXile Entertainment;Bethesda Softworks;3
-168;2011;TNA iMPACT! 2011;SouthPeak Games;SouthPeak Games;3
-169;2012;Afterfall InSanity;Intoxicate Studios;Nicolas Games;3
-170;2012;Blade & Soul;NCsoft;NCsoft;4
-171;2012;Mass Effect 3[26];BioWare;Electronic Arts;5
-172;2012;Dishonored;Bethesda Softworks;Bethesda Softworks;5
-173;2012;Tony Hawks Pro Skater HD;Robomodo;Activision;5
-174;2012;Spec Ops The Line;Yager Development;Cenega;4
-175;2012;Painkiller Hell & Damnation;The Farm 51;Nordic Games;2
-176;2013;Aliens Colonial Marines;Gearbox Software;Sega;1
-177;2013;DmC Devil May Cry;Ninja Theory;Capcom;5
-178;2013;Dust 514;Crowd Control Productions;Crowd Control Productions;4
-179;2013;Enders Game Battle Room;Chair Entertainment;Chair Entertainment;2
-180;2013;BioShock Infinite;Irrational Games;2K Games;2
-181;2013;Deadfall Adventures;The Farm 51;Nordic Games;3
-182;2013;Remember Me;Dontnod Entertainment;Capcom;2
-183;2014;Thief;Eidos Montreal;Cenega;2
-184;2014;Dead Block;Candygun Games;Digital Reality;5
-185;2014;Murdered Soul Suspect;Airtight Games;Square Enix;1
-186;2014;Zaginięcie Ethana Cartera;The Astronauts;cdp.pl;5
-187;2014;Daylight;Zombie Inc.;Zombie Inc.;3
-188;2015;Might and Magic Heroes VII;Limbic Entertainment;Ubisoft;3
-189;2015;Batman Arkham Knight;Rocksteady Studios;Warner Bros. Interactive Entertainment;1
-190;2015;Life Is Strange;Dontnod Entertainment;Square Enix;2
-191;2015;Hatred;Destructive Creations;Destructive Creations;2
-192;2015;Real Boxing 2 Rocky;Vivid Games;Vivid Games;3
-193;2015;The Mean Greens;Virtual Basement;Code Headquarters;5
-194;2015;The Vanishing of Ethan Carter Redux;The Astronauts;cdp.pl;3
-195;2015;Kholat;IMGN.PRO;cdp.pl;1
-196;2015;Alone in the Dark Illumination;Pure FPS;Atari;5
-197;2016;Tower Unite;PixelTail Games;PixelTail Games;3
-198;2016;Abzû;Giant Squid;505 Games;3
-199;2016;Paragon[28];Epic Games;Epic Games;2
-200;2017;MU Legend;Webzen;Webzen;1
-201;2017;Get Even;The Farm 51;Bandai Namco Entertainment;5
-202;2017;Project Remedium;Atomic Jelly;PlayWay;3
-203;2017;Four Goddesses Online Cyber Dimension Neptune[29];Compile Heart Tamsoft;Idea Factory;4
-204;2017;Inner Voices;Sigma Games;Fat Dog Games;5
-205;2017;Crackdown 3;Reagent Games;Microsoft Studios;5
-206;2017;Ark Survival Evolved[30];Studio Wildcard;Studio Wildcard;2
-207;2017;PlayerUnknowns Battlegrounds[31];Bluehole;Bluehole;2
-208;2017;Hellblade Senuas Sacrifice;Ninja Theory;Ninja Theory;4
-209;2017;Hidden Agenda;Supermassive Games;Sony Interactive Entertainment;3
-210;2017;Hello Neighbor[32];Dynamic Pixels;tinyBuild;1
-211;2017;Fortnite[33];Epic Games;Epic Games;4
-212;2018;A Way Out;Hazelight Studios;Electronic Arts;5
-213;2018;Urban Trial Playground[34];Tate Multimedia;Tate Multimedia;4
-214;2018;The Awesome Adventures of Captain Spirit;Dontnod Entertainment;Square Enix;4
-215;2018;We Happy Few[35];Compulsion Games;Gearbox Publishing;3
-216;2018;Life is Strange 2;Dontnod Entertainment;Square Enix;4
-217;2018;MXGP Pro;Milestone;Milestone;1
+1;Unreal;Epic Games;GT Interactive;1998;3
+2;Unreal Mission Pack Return to Na Pali;Legend Entertainment;GT Interactive;1999;4
+3;Unreal Tournament;Epic Games;Epic Games;1999;2
+4;Dr. Brains Thinking Games Action/Reaction;Knowledge Adventure;Knowledge Adventure;1999;5
+5;Nerf Arena Blast;Visionary Media Inc.;Hasbro Interactive;1999;2
+6;The Wheel of Time;Legend Entertainment;GT Interactive;1999;1
+7;Rune;Human Head Studios;Play-It;2000;1
+8;Star Trek Deep Space Nine The Fallen;The Collective Inc.[2];Lemon Interactive;2000;4
+9;X-COM Enforcer;MicroProse;MicroProse;2000;1
+10;Deus Ex;Ion Storm;Eidos Interactive;2000;4
+11;Harry Potter i Kamień Filozoficzny;KnowWonder Digital Mediaworks;Electronic Arts;2001;3
+12;Adventure Pinball Forgotten Island;Digital Extremes;Electronic Arts;2001;5
+13;Clive Barkers Undying;Dreamworks Interactive;Electronic Arts;2001;1
+14;Rune Halls of Valhalla;Human Head Studios;Gathering of Developers;2001;2
+15;Rune Viking Warlord;Human Head Studios;Gathering of Developers;2001;5
+16;Deus Ex The Conspiracy;Ion Storm[4];Eidos Interactive;2002;4
+17;New Legends;Infinite Machine[5];THQ;2002;2
+18;Harry Potter i Komnata Tajemnic;KnowWonder Digital Mediaworks;Electronic Arts;2002;1
+19;Mobile Forces;Rage Software;Majesco;2002;1
+20;Tactical Ops Assault on Terror;Kamehan Studios;cdp.pl;2002;5
+21;Americas Army;United States Army;United States Army;2002;1
+22;Lineage II;NCsoft;cdp.pl;2002;1
+23;Tom Clancys Splinter Cell;Ubisoft;Play-It;2002;1
+24;Unreal Championship;Digital Extremes;Midway Games;2002;4
+25;Unreal Tournament 2003;Digital Extremes;Infogamers;2002;3
+26;Mój brat niedźwiedź;KnowWonder Digital Mediaworks;USA Disney Interactive;2003;3
+27;Tom Clancys Rainbow Six 3 Raven Shield;Ubisoft;Play-It;2003;1
+28;Desert Thunder;Brainbox Games;Groove Games;2003;4
+29;Devastation;Digitalo Studios;Licomp Empirical Multimedia;2003;2
+30;Twin Caliber;Rage Software;Rage Software;2003;5
+31;Magic The Gathering – Battlegrounds;Secret Level;Atari;2003;3
+32;Postal 2;Running With Scissors Inc.;Licomp Empirical Multimedia;2003;2
+33;Unreal II The Awakening;Legend Entertainment;cdp.pl;2003;4
+34;XIII;Ubisoft;Ubisoft;2003;5
+35;Dead Mans Hand;Human Head Studios;Licomp Empirical Multimedia;2004;2
+36;Thief Deadly Shadows;Ion Storm;Cenega;2004;3
+37;Harry Potter i więzień Azkabanu[6];KnowWonder Digital Mediaworks;Electronic Arts;2004;3
+38;Lemony Snickets A Series of Unfortunate Events;Adrenium Games;Activision;2004;3
+39;Shadow Ops Red Mercury;Zombie Studios;Atari;2004;1
+40;Rybki z ferajny;Amaze Entertainment;Licomp Empirical Multimedia;2004;5
+41;Tom Clancys Rainbow Six 3 Athena Sword;Ubisoft;Cenega;2004;4
+42;Tom Clancys Rainbow Six 3 Black Arrow;Ubisoft;Ubisoft;2004;2
+43;Tom Clancys Splinter Cell Pandora Tomorrow;Ubisoft;Cenega;2004;5
+44;Marine Heavy Gunner Vietnam;Brainbox Games;Groove Games;2004;3
+45;Men of Valor;2015 Games;Sierra;2004;3
+46;Tribes Vengeance;Irrational Games;cdp.pl;2004;3
+47;Unreal Tournament 2004;Digital Extremes;Infogamers;2004;1
+48;Land of the Dead Road to Fiddlers Green;Brainbox Games;Groove Games;2005;2
+49;Americas Army Rise of a Soldier;Ubisoft;Ubisoft;2005;2
+50;Advent Rising;GlyphX Games;Majesco;2005;2
+51;Brothers in Arms Earned in Blood;Gearbox Software;Cenega;2005;1
+52;Brothers in Arms Road to Hill 30;Gearbox Software;Cenega;2005;2
+53;Combat Task Force 121;Direct Action Games[7];Groove Games;2005;1
+54;Pariah;Digital Extremes[8];Nicolas Games;2005;3
+55;Star Wars Republic Commando;LucasArts[9][10];LucasArts;2005;1
+56;SWAT 4;Irrational Games;cdp.pl;2005;3
+57;Tom Clancys Splinter Cell Chaos Theory;Ubisoft[11];Cenega;2005;3
+58;Unreal Championship 2 The Liandri Conflict;Epic Games;Midway Games;2005;4
+59;World War II Combat Road to Berlin;Direct Action Games;Groove Games;2005;2
+60;Brothers In Arms D-Day;Gearbox Software;Cenega;2006;2
+61;Red Orchestra Ostfront 41-45;Tripwire Interactive[12];Cenega;2006;2
+62;Red Steel;Ubisoft;Ubisoft;2006;2
+63;Sezon na misia;Ubisoft;Cenega;2006;5
+64;The Chronicles of Spellborn;Spellborn International;Mindscape;2006;4
+65;The Regiment;Kuju Entertainment;Konami;2006;3
+66;Tom Clancys Splinter Cell Double Agent;Ubisoft;Ubisoft;2006;4
+67;Tom Clancys Splinter Cell Essentials;Ubisoft;Ubisoft;2006;1
+68;World War II Combat Iwo Jima;Direct Action Games;Groove Games;2006;2
+69;WarPath;Digital Extremes;Groove Games;2006;5
+70;Gears of War;Epic Games;Microsoft Game Studios;2006;3
+71;RoboBlitz;Naked Sky Entertainment[16];Naked Sky Entertainment;2006;3
+72;Tom Clancys Rainbow Six Vegas;Ubisoft Montreal;Ubisoft;2006;3
+73;BioShock[13];2K Boston/2K Australia;2K Games;2007;1
+74;Na fali;Ubisoft;Cenega;2007;2
+75;Marine Sharpshooter 3;Groove Games;Groove Games;2007;3
+76;Close Quarters Conflict;Direct Action Games;Groove Games;2007;1
+77;Ragnarok Online 2 The Gate of the World;Gravity;Gravity;2007;2
+78;Redneck Kentucky and the Next Generation Chickens;City Interactive;City Interactive;2007;4
+79;StoneAge 2;DigiPark Inc.;Frogster Interactive Pictures AG;2007;4
+80;Vanguard Saga of Heroes;Sigil Games Online;Sony Interactive Entertainment;2007;2
+81;Black College Football BCFX The Xperience;Nerjyzed Entertainment;Aspyr Media;2007;2
+82;Alliance of Valiant Arms;RED DUCK;Neowiz Games NHN;2007;3
+83;BlackSite Area 51;Midway Austin;Midway Games;2007;5
+84;Fatal Inertia;Koei;Koei;2007;2
+85;Lost Odyssey;Mistwalker;Microsoft Game Studios;2007;1
+86;Hour of Victory;NFusion Interactive;Midway Games;2007;4
+87;Fury;Auran[18];Gamecock Media Group;2007;3
+88;Mass Effect;BioWare[19];Microsoft Game Studios;2007;3
+89;Stranglehold;Midway Games;Midway Games;2007;5
+90;Medal of Honor Airborne;Electronic Arts[21];Electronic Arts;2007;3
+91;Monster Madness Battle for Suburbia;Artificial Studios[22];SouthPeak Interactive;2007;2
+92;Undertow;Chair Entertainment;Chair Entertainment;2007;1
+93;Unreal Tournament III;Epic Games;Midway Games;2007;1
+94;Warmonger Operation Downtown Destruction;NetDevil;NetDevil;2007;1
+95;Mission Against Terror;Kingsoft;Suba Games;2008;1
+96;Brothers In Arms Double Time;Gearbox Software;Ubisoft;2008;3
+97;Marine Sharpshooter 4;Groove Games;Groove Games;2008;2
+98;Priston Tale 2;Yedang Online;Yedang Online;2008;3
+99;American McGees Grimm;Spicy Horse;Turner Broadcasting System;2008;2
+100;Army of Two;Electronic Arts;Electronic Arts;2008;5
+101;Brothers in Arms Hells Highway;Gearbox Software;Ubisoft;2008;3
+102;Damnation;Blue Omega Entertainment;Codemasters;2008;4
+103;Destroy All Humans! Path of the Furon[23];THQ;THQ;2008;3
+104;Frontlines Fuel of War;Kaos Studios;THQ;2008;2
+105;Gears of War 2;Epic Games;Microsoft Game Studios;2008;4
+106;Hail to the Chimp;Wideload Games[24];Gamecock Media Group;2008;2
+107;Highlander The Game;Widescreen Games;Eidos Interactive;2008;3
+108;Mirrors Edge;Digital Illusions CE;Electronic Arts;2008;4
+109;Legendary;Spark Unlimited;Gamecock Media Group;2008;5
+110;Rise of the Argonauts;Liquid Entertainment;Codemasters;2008;4
+111;Mortal Kombat vs. DC Universe;Midway Amusement Games;Midway Games;2008;1
+112;Robert Ludlums The Bourne Conspiracy;High Moon Studios;Sierra Entertainment;2008;2
+113;TNA iMPACT!;Midway Studios – Los Angeles;Midway Games;2008;4
+114;Parabellum;Acony;GamersFirst;2008;5
+115;Supersonic Acrobatic Rocket-Powered Battle-Cars;Psyonix;Psyonix;2008;3
+116;The Last Remnant;Square Enix;Square Enix;2008;2
+117;Ageods To End All Wars;Kuju Entertainment;Matrix Games;2008;2
+118;Tom Clancys EndWar;Ubisoft Shanghai;Ubisoft;2008;3
+119;Tom Clancys Rainbow Six Vegas 2;Ubisoft Montreal;Ubisoft;2008;5
+120;Turning Point Fall of Liberty;Spark Unlimited;Codemasters;2008;5
+121;Turok;Propaganda Games;Touchstone Pictures;2008;4
+122;Killing Floor[14];Tripwire Interactive;Iceberg Interactive;2009;2
+123;50 Cent Blood on the Sand;Swordfish Studios;Vivendi Games;2009;4
+124;Americas Army 3.0;United States Army;United States Army;2009;2
+125;Star Trek D.A.C;Naked Sky Entertainment;Paramount Digital Entertainment;2009;2
+126;Borderlands;Gearbox Software;2K Games;2009;2
+127;Fairytale Fights;Playlogic Game Factory;Playlogic;2009;3
+128;Huxley;Webzen Games;Webzen Games NHN;2009;2

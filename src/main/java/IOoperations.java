@@ -16,8 +16,10 @@ public class IOoperations {
     public void writeCSV(ResultSet resultSet, String filename) throws IOException, SQLException {
         CSVPrinter printer = new CSVPrinter(new FileWriter(filename), CSVFormat.EXCEL.withDelimiter(';'));
         printer.printRecords(resultSet);
+        printer.close();
     }
 
+    //for debugging
     public void writeSTDOUT(ResultSet resultSet) throws IOException, SQLException {
         CSVPrinter printer = new CSVPrinter(System.out, CSVFormat.EXCEL);
         printer.printRecords(resultSet);
@@ -46,32 +48,28 @@ public class IOoperations {
                 item.getID(), item.getTitle(), item.getDeveloper(),
                 item.getPublisher(), item.getYear(), item.getRate())
         );
-
     }
 
-    public void readCSVwriteToRepo(GamesRepository initGames, IOoperations io, String file) {
-
+    public void readCSVwriteToRepo(GamesRepository games, IOoperations io, String file) {
         File initCSV = new File(file);
         List<CSVRecord> initListOfGames;
         try {
             initListOfGames = io.readCSV(initCSV);
             initListOfGames.forEach(item -> {
                 String[] gameData = item.get(0).split(";");
-//                System.out.printf(gameData[0] + " " +gameData[5] + "\n");
                 if (!"\uFEFF\uFEFFID".equals(gameData[0])) {
-                    initGames.add(
+                    games.add(
                             new Game(
                                     Integer.parseInt(gameData[0]), //ID
-                                    Integer.parseInt(gameData[1]), //year
+                                    Integer.parseInt(gameData[4]), //year
                                     Integer.parseInt(gameData[5]), //rate
-                                    gameData[2], //title
-                                    gameData[3], //developer
-                                    gameData[4]  //publisher
+                                    gameData[1], //title
+                                    gameData[2], //developer
+                                    gameData[3]  //publisher
                             )
                     );
                 }
             });
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (NullPointerException e) {

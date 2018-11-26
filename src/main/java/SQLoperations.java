@@ -39,14 +39,10 @@ public class SQLoperations {
                     try {
                         statement.addBatch(singleInsertStatement(item));
                     } catch (SQLException e) {
-//                        e.printStackTrace();
-                        System.out.println("SQL ERROR");
                     }
                 }
         );
-
         statement.executeBatch();
         connection.commit();
-
     }
 }

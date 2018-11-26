@@ -13,48 +13,27 @@ public class Main {
         SQLoperations sql = new SQLoperations();
 
         io.readCSVwriteToRepo(initGames, io, "init.csv");
-
-//        io.printRepositoryOfGames(initGames);
-
         try {
             connection = sql.initDB();
-
-            Statement statement = connection.createStatement();
-            String query = "select * from games";
-            ResultSet resultSet = statement.executeQuery(query);
-            io.writeCSV(resultSet, "games.csv");
-
             sql.writeRepoToSQL(initGames, connection);
-
-//            System.out.println(sql.singleInsertStatement(initGames.getGames().get(3)));
-
-        }catch (SQLException e) {
-//            e.printStackTrace();
-            System.out.println("SQL ERROR");
-
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (SQLException e) {
         }
 
-
-        try{
+        try {
             GamesRepository currentGameRepo = new GamesRepository();
             Menu menu = new Menu();
             String queryMenu = menu.menu();
             Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(queryMenu);
-            io.writeCSV(resultSet, "currentGames.csv");
-            io.readCSVwriteToRepo(currentGameRepo,io,"currentGames.csv");
+            ResultSet resultSet2 = statement.executeQuery(queryMenu);
+            io.writeCSV(resultSet2, "currentGames.csv");
+            io.readCSVwriteToRepo(currentGameRepo, io, "currentGames.csv");
             io.printRepositoryOfGames(currentGameRepo);
 
         } catch (SQLException e) {
             e.printStackTrace();
-//            System.out.println("SQL ERROR");
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
         // END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         try {
@@ -62,10 +41,6 @@ public class Main {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
-
     }
-
 }
 

@@ -13,9 +13,7 @@ public class Menu {
                 "Wpisz wybór: ";
     }
 
-
     public String menu() {
-
         System.out.println(printChoices());
         String choice = scanner.nextLine();
         String output = "select * from ";
@@ -38,7 +36,6 @@ public class Menu {
                 output += "games where rate > " + reating;
                 break;
         }
-
-            return output + ";";
-        }
+        return output + ";";
     }
+}
